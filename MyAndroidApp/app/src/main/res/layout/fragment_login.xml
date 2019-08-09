@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Login">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="30dp">
+
+        <TextView
+        android:id="@+id/login_view_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="50dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/hello_login"
+        android:textColor="#A9A9A9"
+        android:textSize="25sp"
+        android:typeface="serif" />
+
+
+        <EditText
+            android:id="@+id/login_passcode"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:backgroundTint="@color/colorPrimaryDark"
+            android:hint="Pass Code"
+            android:inputType="numberPassword"
+            android:maxLength="6" />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:background="@color/colorPrimaryDark"
+
+            android:paddingLeft="70dp"
+            android:paddingRight="70dp"
+            android:text="login"
+            android:textColor="@color/colorNavText"
+            android:onClick="loginClicked"
+            />
+
+    </LinearLayout>
+
+</FrameLayout>

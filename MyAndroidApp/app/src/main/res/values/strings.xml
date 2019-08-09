@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">MyAndroidApp</string>
+    <string name="title_registration">Registration</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_Login">Login</string>
+    <string name="title_logout">Logout</string>
+    <string name="title_Edit">Edit</string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_registration">Registration</string>
+    <string name="hello_login">Enter 6 digit Pass Code</string>
+    <string name="hello_dashboard">DashBoard Page</string>
+
+</resources>

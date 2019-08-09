@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_registration"
+        android:icon="@drawable/ic_assignment_black_24dp"
+        android:title="@string/title_registration" />
+
+    <item
+        android:id="@+id/navigation_login"
+        android:icon="@drawable/ic_vpn_key_black_24dp"
+        android:title="@string/title_Login" />
+
+
+
+</menu>
