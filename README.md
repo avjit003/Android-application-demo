@@ -1,8 +1,8 @@
 # Android-application-demo
 <b>Clone the repository to your local folder</b>
 
-*Git clone https://github.com/avjit003/Android-application-demo.git
-*cd  Android-application-demo
+**Git clone https://github.com/avjit003/Android-application-demo.git**
+**cd  Android-application-demo**
 
 <b>open Android studio</b>
 
